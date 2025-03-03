@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		516C86802D75971400369E71 /* ToneAdjustApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C867F2D75971400369E71 /* ToneAdjustApp.swift */; };
+		516C86822D75971400369E71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C86812D75971400369E71 /* ContentView.swift */; };
+		516C86842D75971600369E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516C86832D75971600369E71 /* Assets.xcassets */; };
+		516C86872D75971600369E71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516C86862D75971600369E71 /* Preview Assets.xcassets */; };
+		516C86912D75971600369E71 /* ToneAdjustTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C86902D75971600369E71 /* ToneAdjustTests.swift */; };
+		516C869B2D75971600369E71 /* ToneAdjustUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C869A2D75971600369E71 /* ToneAdjustUITests.swift */; };
+		516C869D2D75971600369E71 /* ToneAdjustUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C869C2D75971600369E71 /* ToneAdjustUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		516C868D2D75971600369E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 516C86742D75971400369E71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516C867B2D75971400369E71;
+			remoteInfo = ToneAdjust;
+		};
+		516C86972D75971600369E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 516C86742D75971400369E71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516C867B2D75971400369E71;
+			remoteInfo = ToneAdjust;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		516C867C2D75971400369E71 /* ToneAdjust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToneAdjust.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		516C867F2D75971400369E71 /* ToneAdjustApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneAdjustApp.swift; sourceTree = "<group>"; };
+		516C86812D75971400369E71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		516C86832D75971600369E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		516C86862D75971600369E71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		516C868C2D75971600369E71 /* ToneAdjustTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToneAdjustTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		516C86902D75971600369E71 /* ToneAdjustTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneAdjustTests.swift; sourceTree = "<group>"; };
+		516C86962D75971600369E71 /* ToneAdjustUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToneAdjustUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		516C869A2D75971600369E71 /* ToneAdjustUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneAdjustUITests.swift; sourceTree = "<group>"; };
+		516C869C2D75971600369E71 /* ToneAdjustUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneAdjustUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		516C86792D75971400369E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516C86892D75971600369E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516C86932D75971600369E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		516C86732D75971400369E71 = {
+			isa = PBXGroup;
+			children = (
+				516C867E2D75971400369E71 /* ToneAdjust */,
+				516C868F2D75971600369E71 /* ToneAdjustTests */,
+				516C86992D75971600369E71 /* ToneAdjustUITests */,
+				516C867D2D75971400369E71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		516C867D2D75971400369E71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				516C867C2D75971400369E71 /* ToneAdjust.app */,
+				516C868C2D75971600369E71 /* ToneAdjustTests.xctest */,
+				516C86962D75971600369E71 /* ToneAdjustUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		516C867E2D75971400369E71 /* ToneAdjust */ = {
+			isa = PBXGroup;
+			children = (
+				516C867F2D75971400369E71 /* ToneAdjustApp.swift */,
+				516C86812D75971400369E71 /* ContentView.swift */,
+				516C86832D75971600369E71 /* Assets.xcassets */,
+				516C86852D75971600369E71 /* Preview Content */,
+			);
+			path = ToneAdjust;
+			sourceTree = "<group>";
+		};
+		516C86852D75971600369E71 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				516C86862D75971600369E71 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		516C868F2D75971600369E71 /* ToneAdjustTests */ = {
+			isa = PBXGroup;
+			children = (
+				516C86902D75971600369E71 /* ToneAdjustTests.swift */,
+			);
+			path = ToneAdjustTests;
+			sourceTree = "<group>";
+		};
+		516C86992D75971600369E71 /* ToneAdjustUITests */ = {
+			isa = PBXGroup;
+			children = (
+				516C869A2D75971600369E71 /* ToneAdjustUITests.swift */,
+				516C869C2D75971600369E71 /* ToneAdjustUITestsLaunchTests.swift */,
+			);
+			path = ToneAdjustUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		516C867B2D75971400369E71 /* ToneAdjust */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516C86A02D75971600369E71 /* Build configuration list for PBXNativeTarget "ToneAdjust" */;
+			buildPhases = (
+				516C86782D75971400369E71 /* Sources */,
+				516C86792D75971400369E71 /* Frameworks */,
+				516C867A2D75971400369E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToneAdjust;
+			productName = ToneAdjust;
+			productReference = 516C867C2D75971400369E71 /* ToneAdjust.app */;
+			productType = "com.apple.product-type.application";
+		};
+		516C868B2D75971600369E71 /* ToneAdjustTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516C86A32D75971600369E71 /* Build configuration list for PBXNativeTarget "ToneAdjustTests" */;
+			buildPhases = (
+				516C86882D75971600369E71 /* Sources */,
+				516C86892D75971600369E71 /* Frameworks */,
+				516C868A2D75971600369E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				516C868E2D75971600369E71 /* PBXTargetDependency */,
+			);
+			name = ToneAdjustTests;
+			productName = ToneAdjustTests;
+			productReference = 516C868C2D75971600369E71 /* ToneAdjustTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		516C86952D75971600369E71 /* ToneAdjustUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516C86A62D75971600369E71 /* Build configuration list for PBXNativeTarget "ToneAdjustUITests" */;
+			buildPhases = (
+				516C86922D75971600369E71 /* Sources */,
+				516C86932D75971600369E71 /* Frameworks */,
+				516C86942D75971600369E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				516C86982D75971600369E71 /* PBXTargetDependency */,
+			);
+			name = ToneAdjustUITests;
+			productName = ToneAdjustUITests;
+			productReference = 516C86962D75971600369E71 /* ToneAdjustUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		516C86742D75971400369E71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					516C867B2D75971400369E71 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					516C868B2D75971600369E71 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 516C867B2D75971400369E71;
+					};
+					516C86952D75971600369E71 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 516C867B2D75971400369E71;
+					};
+				};
+			};
+			buildConfigurationList = 516C86772D75971400369E71 /* Build configuration list for PBXProject "ToneAdjust" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 516C86732D75971400369E71;
+			productRefGroup = 516C867D2D75971400369E71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				516C867B2D75971400369E71 /* ToneAdjust */,
+				516C868B2D75971600369E71 /* ToneAdjustTests */,
+				516C86952D75971600369E71 /* ToneAdjustUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		516C867A2D75971400369E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516C86872D75971600369E71 /* Preview Assets.xcassets in Resources */,
+				516C86842D75971600369E71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516C868A2D75971600369E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516C86942D75971600369E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		516C86782D75971400369E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516C86822D75971400369E71 /* ContentView.swift in Sources */,
+				516C86802D75971400369E71 /* ToneAdjustApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516C86882D75971600369E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516C86912D75971600369E71 /* ToneAdjustTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516C86922D75971600369E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516C869B2D75971600369E71 /* ToneAdjustUITests.swift in Sources */,
+				516C869D2D75971600369E71 /* ToneAdjustUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		516C868E2D75971600369E71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 516C867B2D75971400369E71 /* ToneAdjust */;
+			targetProxy = 516C868D2D75971600369E71 /* PBXContainerItemProxy */;
+		};
+		516C86982D75971600369E71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 516C867B2D75971400369E71 /* ToneAdjust */;
+			targetProxy = 516C86972D75971600369E71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		516C869E2D75971600369E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		516C869F2D75971600369E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		516C86A12D75971600369E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToneAdjust/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.ToneAdjust;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		516C86A22D75971600369E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToneAdjust/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.ToneAdjust;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		516C86A42D75971600369E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.ToneAdjustTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToneAdjust.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToneAdjust";
+			};
+			name = Debug;
+		};
+		516C86A52D75971600369E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.ToneAdjustTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToneAdjust.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToneAdjust";
+			};
+			name = Release;
+		};
+		516C86A72D75971600369E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.ToneAdjustUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToneAdjust;
+			};
+			name = Debug;
+		};
+		516C86A82D75971600369E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.ToneAdjustUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToneAdjust;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		516C86772D75971400369E71 /* Build configuration list for PBXProject "ToneAdjust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516C869E2D75971600369E71 /* Debug */,
+				516C869F2D75971600369E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516C86A02D75971600369E71 /* Build configuration list for PBXNativeTarget "ToneAdjust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516C86A12D75971600369E71 /* Debug */,
+				516C86A22D75971600369E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516C86A32D75971600369E71 /* Build configuration list for PBXNativeTarget "ToneAdjustTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516C86A42D75971600369E71 /* Debug */,
+				516C86A52D75971600369E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516C86A62D75971600369E71 /* Build configuration list for PBXNativeTarget "ToneAdjustUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516C86A72D75971600369E71 /* Debug */,
+				516C86A82D75971600369E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 516C86742D75971400369E71 /* Project object */;
+}
