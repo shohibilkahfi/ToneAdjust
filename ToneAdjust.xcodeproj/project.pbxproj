@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51000A0D2D76F0DB005E9066 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51000A0C2D76F0DB005E9066 /* opencv2.framework */; };
+		51000A102D771375005E9066 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51000A0F2D771375005E9066 /* ImagePicker.swift */; };
+		51000A132D7755D5005E9066 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51000A122D7755D5005E9066 /* HomeViewModel.swift */; };
 		516C86802D75971400369E71 /* ToneAdjustApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C867F2D75971400369E71 /* ToneAdjustApp.swift */; };
-		516C86822D75971400369E71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C86812D75971400369E71 /* ContentView.swift */; };
+		516C86822D75971400369E71 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C86812D75971400369E71 /* HomeView.swift */; };
 		516C86842D75971600369E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516C86832D75971600369E71 /* Assets.xcassets */; };
 		516C86872D75971600369E71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516C86862D75971600369E71 /* Preview Assets.xcassets */; };
 		516C86912D75971600369E71 /* ToneAdjustTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C86902D75971600369E71 /* ToneAdjustTests.swift */; };
 		516C869B2D75971600369E71 /* ToneAdjustUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C869A2D75971600369E71 /* ToneAdjustUITests.swift */; };
 		516C869D2D75971600369E71 /* ToneAdjustUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C869C2D75971600369E71 /* ToneAdjustUITestsLaunchTests.swift */; };
+		516C86BC2D759FC900369E71 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 516C86BB2D759FC900369E71 /* OpenCVWrapper.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +37,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		51000A082D75C0BD005E9066 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		51000A0C2D76F0DB005E9066 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		51000A0F2D771375005E9066 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		51000A122D7755D5005E9066 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		516C867C2D75971400369E71 /* ToneAdjust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToneAdjust.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		516C867F2D75971400369E71 /* ToneAdjustApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneAdjustApp.swift; sourceTree = "<group>"; };
-		516C86812D75971400369E71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		516C86812D75971400369E71 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		516C86832D75971600369E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		516C86862D75971600369E71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		516C868C2D75971600369E71 /* ToneAdjustTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToneAdjustTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +64,9 @@
 		516C86962D75971600369E71 /* ToneAdjustUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToneAdjustUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		516C869A2D75971600369E71 /* ToneAdjustUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneAdjustUITests.swift; sourceTree = "<group>"; };
 		516C869C2D75971600369E71 /* ToneAdjustUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneAdjustUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		516C86BA2D759FC900369E71 /* ToneAdjust-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToneAdjust-Bridging-Header.h"; sourceTree = "<group>"; };
+		516C86BB2D759FC900369E71 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		516C86BD2D759FF500369E71 /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51000A0D2D76F0DB005E9066 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,13 +95,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51000A0E2D77134D005E9066 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				51000A0F2D771375005E9066 /* ImagePicker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		51000A112D7755C8005E9066 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				516C86812D75971400369E71 /* HomeView.swift */,
+				51000A122D7755D5005E9066 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		516C86732D75971400369E71 = {
 			isa = PBXGroup;
 			children = (
+				516C86BD2D759FF500369E71 /* OpenCVWrapper.h */,
+				516C86BB2D759FC900369E71 /* OpenCVWrapper.mm */,
 				516C867E2D75971400369E71 /* ToneAdjust */,
 				516C868F2D75971600369E71 /* ToneAdjustTests */,
 				516C86992D75971600369E71 /* ToneAdjustUITests */,
 				516C867D2D75971400369E71 /* Products */,
+				516C86B52D759F9000369E71 /* Frameworks */,
+				516C86BA2D759FC900369E71 /* ToneAdjust-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +139,9 @@
 		516C867E2D75971400369E71 /* ToneAdjust */ = {
 			isa = PBXGroup;
 			children = (
+				51000A112D7755C8005E9066 /* Home */,
+				51000A0E2D77134D005E9066 /* Components */,
 				516C867F2D75971400369E71 /* ToneAdjustApp.swift */,
-				516C86812D75971400369E71 /* ContentView.swift */,
 				516C86832D75971600369E71 /* Assets.xcassets */,
 				516C86852D75971600369E71 /* Preview Content */,
 			);
@@ -127,6 +173,14 @@
 			path = ToneAdjustUITests;
 			sourceTree = "<group>";
 		};
+		516C86B52D759F9000369E71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51000A0C2D76F0DB005E9066 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +191,7 @@
 				516C86782D75971400369E71 /* Sources */,
 				516C86792D75971400369E71 /* Frameworks */,
 				516C867A2D75971400369E71 /* Resources */,
+				51000A082D75C0BD005E9066 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +250,7 @@
 				TargetAttributes = {
 					516C867B2D75971400369E71 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 					516C868B2D75971600369E71 = {
 						CreatedOnToolsVersion = 15.4;
@@ -257,8 +313,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				516C86822D75971400369E71 /* ContentView.swift in Sources */,
+				516C86822D75971400369E71 /* HomeView.swift in Sources */,
+				51000A102D771375005E9066 /* ImagePicker.swift in Sources */,
 				516C86802D75971400369E71 /* ToneAdjustApp.swift in Sources */,
+				51000A132D7755D5005E9066 /* HomeViewModel.swift in Sources */,
+				516C86BC2D759FC900369E71 /* OpenCVWrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,11 +478,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToneAdjust/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/opencv2.framework/Headers/**";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs access to save images to your photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to your photo library to save edited images";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -437,8 +503,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.apps.ToneAdjust;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ToneAdjust-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "-Wno-quoted-include-in-framework-header";
 			};
 			name = Debug;
 		};
@@ -447,11 +516,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToneAdjust/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/opencv2.framework/Headers/**";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs access to save images to your photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to your photo library to save edited images";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -465,8 +539,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.apps.ToneAdjust;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ToneAdjust-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "-Wno-quoted-include-in-framework-header";
 			};
 			name = Release;
 		};
